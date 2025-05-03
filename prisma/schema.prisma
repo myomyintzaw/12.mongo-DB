@@ -26,4 +26,4 @@ model Post {
 }
 
 
-
+//run (npx prisma generate) after changes in schema.prisma
