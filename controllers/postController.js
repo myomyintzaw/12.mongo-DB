@@ -20,7 +20,7 @@ async function main() {
         res.render('posts/create', { title: 'create post' });
     };
 
-    exports.postCreatPost = async (req, res) => {
+    exports.postCreatePost = async (req, res) => {
         const { title, content } = req.body;
         await prisma.post.create({
             data: {
@@ -42,7 +42,7 @@ async function main() {
 
 
     exports.postEditPost = async (req, res) => {
-        const { tilte, content } = req.body;
+        const { title, content } = req.body;
         await prisma.post.update({
             where: { id: req.params.id, authorId: req.session.userId },
             data: { title, content },
