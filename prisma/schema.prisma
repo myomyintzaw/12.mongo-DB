@@ -27,3 +27,14 @@ model Post {
 
 
 //run (npx prisma generate) after changes in schema.prisma
+
+//npm i   "@prisma/client": "^5.21.1",
+    // "bcryptjs": "^2.4.3",
+    // "dotenv": "^16.4.5",
+    // "ejs": "^3.1.10",
+    // "express": "^4.21.1",
+    // "express-ejs-layouts": "^2.5.1",
+    // "express-session": "^1.18.1",
+    // "jsonwebtoken": "^9.0.2",
+    // "mongodb": "^6.10.0",
+    // "prisma": "^5.21.1"
